@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@700&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Tammudu 2', cursive,sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(221, 230, 230);
+}
+h2{
+    margin: 50px 0 10px 0;
+    font-size: 2.5rem;
+}
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding: 25px 40px;
+    margin: 5px 0 50px 0;
+}
+#add{
+    margin: 20px 0;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10%;
+    font-family: 'Baloo Tammudu 2', cursive,sans-serif;
+    background-color: rgb(26, 175, 101);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+}
+#notes{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 5%;
+    height: 100%;
+    margin-top: 50px;
+}
+.note{
+    max-width: 450px;
+    min-width: 300px;
+    margin: auto;
+    max-height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    background-color: #fff;
+    padding: 5px 10px;
+    box-shadow: 5px 5px #888888;
+    overflow: auto;
+}
+.text{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+.title{
+    outline: none;
+    font-family: 'Baloo Tammudu 2', cursive,sans-serif;
+    border: none;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-bottom: 1px solid rgb(20, 20, 20);
+}
+.contenue{
+    padding-top: 15px;
+    outline: none;
+    font-family: 'Baloo Tammudu 2', cursive,sans-serif;
+    border: none;
+    height: 100%;
+}
+.delete{
+    font-size: 1.1rem;
+    color: rgb(29, 27, 27);
+    cursor: pointer;
+}
+#footer{
+    margin-bottom: 50px;
+}
+.boutton{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+#search{
+    display: flex;
+    flex-direction: column;
+}
+#searcharea{
+    outline: none;
+    padding: 2px 10px 2px 10px;
+    height: 30px;
+    font-family: 'Baloo Tammudu 2', cursive,sans-serif;
+    border: none;
+    text-transform: uppercase;
+}
+.recherche{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+img{
+    cursor: pointer;
+}
+.hidden{
+    display: none;
+}
